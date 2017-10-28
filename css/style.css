@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'RobotoMonoItalic';
+  src: url('fonts/RobotoMono-Italic.ttf');
+  src: url('../fonts/RobotoMono-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RobotoMonoBold';
+  src: url('fonts/RobotoMono-Bold.ttf');
+  src: url('../fonts/RobotoMono-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: #fff;
+	font-family: "RobotoMonoItalic";
+}
+
+p {
+	line-height: 1.6em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul.number-ls {
+	list-style-type: decimal;
+}
+
+.section:nth-child(even) {
+	text-align: right;
+	color: #444;
+}
+
+.section:nth-child(odd) {
+	text-align: left;
+	color: #fff;
+}
+
+.wrap {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.title {
+	margin-bottom: 30px;
+}
+
+/*font family Roboto Mono*/
+#about {
+	background-image: url("../images/about-bg.jpg");
+	background-size: cover;
+    background-blend-mode: luminosity;
+}
+
+#about .name {
+	/*color: #333;*/
+    font-size: 52px;
+	margin-bottom: 10px;
+	font-family: "RobotoMonoBold";
+}
+
+#about .job-title {
+	/*color: #888;*/
+	color: #ccc;
+    font-size: 22px;
+	font-family: "RobotoMonoItalic";
+}
+
+#about .overview {
+	text-align: right;
+}
+
+#education {
+	/*color: #444;*/
+}
+
+#education .progress {
+	
+}
+
+.summary {
+	margin-bottom: 15px;
+}
+
+.summary .item {
+	border: 1px solid #888;
+    border-radius: 4px;
+    padding: 20px;
+	width: 500px;
+    display: inline-block;
+}
+
+#experience {
+	background-color: red;
+}
+
+#softSkill {
+	/*color: #444;*/
+}
+
+#other {
+	/*color: #444;*/
+}
+
